@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0" />
+		<title>乐淘登录</title>
+		<link type="image/x-icon" rel="shortcut icon" href="../images/favicon.ico">
+		<link rel="stylesheet" href="../assets/mui/css/mui.css" />
+		<link rel="stylesheet" href="../assets/fa/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/user.css" />
+		<title>传淘登录</title>
+	</head>
+
+	<body>
+		<!--首页内容-->
+		<div class="ct_container">
+			<header class="ct_header">
+				<a href="javascript:history.back();" class="left"><span class="fa fa-backward"></span></a>
+				<h3>login</h3>
+			</header>
+			<div class="ct_content">
+				<div class="ct_wrapper">
+					<form class="mui-input-group">
+						<div class="mui-input-row">
+							<label>用户名</label>
+							<input type="text" class="mui-input-clear" placeholder="请输入用户名" name="username">
+						</div>
+						<div class="mui-input-row">
+							<label>密码</label>
+							<input type="password" class="mui-input-password" placeholder="请输入密码" name="password">
+						</div>
+						<div class="mui-button-row">
+							<button type="button" id="submit" class="mui-btn mui-btn-primary">确认</button>
+							<button type="button" class="mui-btn mui-btn-danger">取消</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<footer class="ct_footer">
+				<a class="tab_home fa fa-home now" href="../index.html"><span>首页</span></a>
+				<a class="tab_cate fa fa-bars" href="../category.html"><span>分类</span></a>
+				<a class="tab_cart fa fa-shopping-cart" href="../user/cart.html"><span>购物车</span></a>
+				<a class="tab_user fa fa-user" href="../user/index.html"><span>会员中心</span></a>
+			</footer>
+		</div>
+		<script src="../assets/mui/js/mui.min.js"></script>
+		<script src="../assets/zepto/zepto.min.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/login.js"></script>
+	</body>
+
+</html>
